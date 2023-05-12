@@ -6,6 +6,10 @@
 html{
     font-size: 62.5%;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 header{
     width: 100%;
     height: 100px;
@@ -16,6 +20,11 @@ header nav{
     margin-left: 70px;
     margin-right: 70px;
 }
+header nav ul li a:hover{
+    color: rgb(180, 53, 104);
+    font-size: 2.2rem;
+}
+
 header nav ul{
     height: 100%;
     display: flex;
@@ -83,8 +92,6 @@ header nav ul a{
 }
 .main-text{
     width: 100%;
-    height: 100%;
-    background-color: aliceblue;
     padding-top: 40px;
 }
 .main-text iframe{
@@ -95,4 +102,33 @@ header nav ul a{
     font-size: 1.8rem;
     margin: 50px 100px 50px 100px;
     text-align: center;
+}
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.services h2{
+    font-size: 2.5rem;
+}
+.services p{
+    font-size: 2rem;
+}
+.services img{
+    width: 550px;
+    display: flex;
+    margin: 0 auto;
+}
+.contacts{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(193, 238, 223);
+}
+.contacts h3{
+    margin-left: 30px;
+    font-size: 1.8rem;
 }
